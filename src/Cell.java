@@ -4,8 +4,6 @@ public class Cell {
 
     private boolean alive;
 
-    private boolean changing;
-
     public Cell( int row, int column, boolean alive) {
         this.row = row;
         this.column = column;
